@@ -9,8 +9,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://yarnpkg.com/en/package/normalize.css">
   <link rel="stylesheet" href="./css/styles.css">
-</head>
+  </head>
   <body>
     <header class="header">
       <div class="container-header">
@@ -22,12 +23,24 @@
             <li class="item"><a href="#" class="link">Контакты</a></li>
           </ul>
           <ul class="site-cont list">
-            <li class="item"><a href="mailto:info@example.com" class="link">info@example.com</a></li>
-            <li class="item"><a href="tel:+380991111111" class="link">+38 099 111 11 11</a></li>
+            <li class="item">
+              <a href="mailto:info@example.com" class="link">
+                <svg class="icon mail">
+                  <use href="./images/symbol-defs.svg#icon-mail"></use>
+                </svg>info@example.com
+              </a>
+            </li>
+            <li class="item">
+              <a href="tel:+380991111111" class="link">
+                <svg class="icon phone">
+                  <use href="./images/symbol-defs.svg#icon-phone"></use>
+                </svg>+38 099 111 11 11
+              </a>
+            </li>
           </ul>
-        </nav>
-      </div>
-    </header>
+          </nav>
+          </div>
+          </header>
     <main>
       <section class="section">
          <div class="container"> 
